@@ -1,0 +1,248 @@
+.games-application-text{/* games-application */
+
+    position: absolute;
+    width: 589px;
+    height: 143px;
+    left: 69px;
+    top: 202px;
+
+    font-family: Impact;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 100px;
+    line-height: 122px;
+
+    color: #000000;
+
+}
+.navbar {
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.nav-link {
+    margin-left: 150px;
+    color: #fff;
+    text-decoration: none;
+    opacity: .75;
+    transition: opacity .1s linear;
+    text-decoration: none;
+}
+.nav-link:hover {
+    text-decoration: underline;
+    text-decoration: none;
+}
+.nazvanie-igry-1{/* Astro Bot Rescue Mission */
+
+    position: absolute;
+    width: 561px;
+    height: 61px;
+    margin-top:550px;
+    margin-left:900px;
+
+    font-family: Impact;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    line-height: 61px;
+    /* identical to box height */
+    text-align: center;
+
+    color: #000000;
+
+}
+.nazvanie-igry-2{/* Budget Cuts */
+
+    position: absolute;
+    width: 248px;
+    height: 61px;
+    top:1200px;
+    left:75px;
+
+    font-family: Impact;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    line-height: 61px;
+    /* identical to box height */
+
+    color: #000000;
+
+}
+.nazvanie-igry-3{/* Beat Saber */
+
+    position: absolute;
+    width: 224px;
+    height: 61px;
+    left:1200px;
+    top:1800px;
+
+    font-family: Impact;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    line-height: 61px;
+    /* identical to box height */
+    text-align: center;
+
+    color: #000000;
+
+}
+.kartinka-1{/* scale_1200 (2) 1 */
+
+    position: absolute;
+    width: 500px;
+    height: 325px;
+    left: 950px;
+    top: 700px;
+
+
+    border-radius: 45px;
+}
+.kartinka-2{/* scale_1200 (3) 1 */
+
+    position: absolute;
+    width: 500px;
+    height: 325px;
+    top:1300px;
+    left:69px;
+
+
+    border-radius: 45px;
+}
+.kartinka-3{/* scale_1200 (4) 1 */
+
+    position: absolute;
+    width: 500px;
+    height: 325px;
+top:1900px;
+    left:950px;
+
+    border-radius: 45px;
+}
+.opisanie-1{/* In this action-platformer, you need to save the members of your team scattered across the expanses of space. Astro Bot Rescue Mission has 20 main levels and 26 challenges, which should be enough for a very long time. */
+
+    position: absolute;
+    width: 727px;
+    height: 190px;
+    top:750px;
+    left:69px;
+
+    font-family: Bahnschrift;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 36px;
+
+    color: #000000;
+
+}
+.opisanie-2{/* To save your job (life), you have to make your way through office spaces using stealth tactics or even using violence. In the real world, artificial intelligence and automation really deprive many people of work, so the theme of the game is very important. There is also a great sequel to Budget Cuts 2: Mission Insolvency. */
+
+    position: absolute;
+    width: 743px;
+    height: 216px;
+    top:1350px;
+    left:720px;
+
+    font-family: Bahnschrift;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: right;
+
+    color: #000000;
+
+}
+.opisanie-3{/* Beat Saber is a musical rhythm game with elements of virtual reality. It is similar to many similar games like Audiosurf, Guitar Hero and Rock Band. But, instead of controlling a virtual ship or playing fake instruments, you have to wade through songs with the help of laser swords. */
+
+    position: absolute;
+    width: 697px;
+    height: 216px;
+    left:70px;
+    top:1950px;
+
+    font-family: Bahnschrift;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 36px;
+
+    color: #000000;
+
+}
+
+.button-4{
+    border-radius:30px;
+    width:120px;
+    background-color:#0F4C75;
+    margin-left:1150px;
+    margin-top:1000px;
+    font-family: Impact;
+}
+.button-5{
+    border-radius:30px;
+    width:120px;
+    background-color:#0F4C75;
+    margin-left:250px;
+    margin-top:520px;
+    font-family: Impact;
+}
+.button-6{
+    border-radius:30px;
+    width:120px;
+    background-color:#0F4C75;
+    margin-left:1150px;
+    margin-top:570px;
+    font-family: Impact;
+}
+@keyframes bounce {
+    0%, 20%, 60%, 100% {
+        transform: translateY(0);
+        transform: translateY(0);
+    }
+
+    40% {
+        transform: translateY(-20px);
+        transform: translateY(-20px);
+    }
+
+    80% {
+        transform: translateY(-10px);
+        transform: translateY(-10px);
+    }
+}
+.games-application-text-opisanie{
+    font-size:50px;
+    font-family:Bahnschrift;
+margin-left:69px;
+    margin-top:400px;
+    position: absolute;
+}
+#myProgress {
+    width: 15%;
+    background-color: #ddd;
+    margin-top:-1350px;
+    margin-left:69px;
+}
+
+#myBar {
+    width: 0%;
+    height: 30px;
+    background-color: #04AA6D;
+    text-align: center;
+    line-height: 30px;
+    color: white;
+}
+.upload{
+    height:50px;
+    margin-left:70px;
+border-radius:30px;
+color:white;
+width: 100px;
+    background-color:#0F4C75;
+    box-shadow: white;
+    font-family: Impact;
+}
